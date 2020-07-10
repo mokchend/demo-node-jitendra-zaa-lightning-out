@@ -3,10 +3,10 @@ $("#prodBtn").click(prodLogin);
 $("#sandBtn").click(sandLogin);
 
 var apiVersion = 'v37.0',
-    clientId = 'YOUR CONSUMER KEY',
+    clientId = '3MVG9Kip4IKAZQEW8SIBzWoPWNyiFlSf8iSezsT.25szFSCqOwM9vLwKf5B4q8YKSuIZNaDOKwBHhz_DYzF8N',
     loginUrl = 'https://login.salesforce.com/',
-    redirectURI = "http://localhost:8080/oauthcallback.html",
-    proxyURL = 'http://localhost:8080/proxy/' ;
+    redirectURI = "https://localhost:8081/oauthcallback.html";
+    //proxyURL = 'http://localhost:8080/proxy/' ;
  
 
 function prodLogin()
